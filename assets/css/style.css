@@ -20,7 +20,7 @@ body{
     display: grid;
     place-items: center;
     min-height: 100vh;
-    grid-template-rows: 97% 1fr;
+    grid-template-rows: 98.3% 1fr;
     font-size: 18px;
     background-color: var(--Very-dark);
     font-family: 'Outfit', sans-serif;
@@ -128,25 +128,10 @@ body{
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ATTRIBUTION */
 .attribution{ 
     font-size: 11px; text-align: center; 
+    color: var(--White);
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
