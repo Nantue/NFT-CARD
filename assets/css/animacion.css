@@ -1,0 +1,46 @@
+/* divider */
+.divider::before {
+    content: "";
+    top: 20px;
+    background: var(--Very-dark-blue);
+    height: 0.1px;
+    position: absolute;
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 100%;
+}
+
+/* Creation span */
+.creation > span:hover{
+    color: var(--Cyan);
+}
+
+/* content-info_card h1 */
+.content-info_card h1:hover{
+    color: var(--Cyan);
+}
+
+/* CARD-IMG - OVERLAY */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 229, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+.overlay img {
+    width: 50px;
+    height: 50px;
+}
+  
+.card-img:hover .overlay {
+    opacity: 1;
+}
